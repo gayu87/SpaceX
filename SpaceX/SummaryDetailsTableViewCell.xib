@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SummaryDetailsTableViewCell" rowHeight="-157" id="KGk-i7-Jjw" customClass="SummaryDetailsTableViewCell" customModule="SpaceX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="610" height="233"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="610" height="233"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="CZF-i7-4bd">
+                        <rect key="frame" x="75" y="5" width="530" height="223"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mission Name : urygtrutyrtuyrtuere" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4W-q7-FQz">
+                                <rect key="frame" x="0.0" y="0.0" width="530" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rocket Name: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x75-F1-QEo">
+                                <rect key="frame" x="0.0" y="54" width="530" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Launch Site Name : sfsreerteurteiteirt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bpo-1K-2td">
+                                <rect key="frame" x="0.0" y="108" width="530" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of Launch: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqk-DV-x3V">
+                                <rect key="frame" x="0.0" y="162" width="530" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="b4f-Jo-8CP">
+                        <rect key="frame" x="5" y="5" width="60" height="223"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CZF-i7-4bd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Bug-hk-kuj"/>
+                    <constraint firstAttribute="trailing" secondItem="CZF-i7-4bd" secondAttribute="trailing" constant="5" id="Clx-bj-ANU"/>
+                    <constraint firstItem="CZF-i7-4bd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="75" id="NNk-Q8-Op4"/>
+                    <constraint firstAttribute="bottom" secondItem="CZF-i7-4bd" secondAttribute="bottom" constant="5" id="Qai-4r-jkM"/>
+                    <constraint firstAttribute="bottom" secondItem="b4f-Jo-8CP" secondAttribute="bottom" constant="5" id="fKB-vG-6yM"/>
+                    <constraint firstItem="b4f-Jo-8CP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="id4-Ne-HNV"/>
+                    <constraint firstItem="b4f-Jo-8CP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="pSK-Sk-rwR"/>
+                    <constraint firstItem="CZF-i7-4bd" firstAttribute="leading" secondItem="b4f-Jo-8CP" secondAttribute="trailing" constant="10" id="yVx-Rx-vUM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateOfLaunchLabel" destination="xqk-DV-x3V" id="MbW-Eh-zzq"/>
+                <outlet property="launchPatchImage" destination="b4f-Jo-8CP" id="jYJ-KV-arR"/>
+                <outlet property="launchSiteNameLabel" destination="Bpo-1K-2td" id="z8C-Yd-aHw"/>
+                <outlet property="missionNameLabel" destination="x4W-q7-FQz" id="r2o-i1-WUz"/>
+                <outlet property="rocketNameLabel" destination="x75-F1-QEo" id="m60-fw-81Y"/>
+            </connections>
+            <point key="canvasLocation" x="-57.971014492753625" y="74.665178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="default" width="1024" height="1024"/>
+    </resources>
+</document>
