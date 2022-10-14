@@ -1,5 +1,5 @@
 # SpaceX
-An application that queries the SpaceX Data API 
+An application that queries the SpaceX Data API and list all Launches and display Launch details to the user
 
 This application is implimented using Xcode 13.4.1. 
 ![simulator_screenshot_7D71A5C2-618F-4D83-A571-B7E3257D5A28](https://user-images.githubusercontent.com/31707921/195733441-68e5eeaa-718f-4832-acac-63b8771b6cbd.png)
