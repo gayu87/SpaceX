@@ -25,7 +25,7 @@ class SummaryDetailsTableViewCell: UITableViewCell {
     }
     
     func setupdataCell(launchData : launch){
-        guard let missionName = launchData.mission_name, let rocketName = launchData.rocket.rocketName, let siteName = launchData.launchSite.siteName, let dateString = launchData.launchDateLocal else { return}
+        guard let missionName = launchData.missioName, let rocketName = launchData.rocket.rocketName, let siteName = launchData.launchSite.siteName, let dateString = launchData.launchDateLocal else { return}
         missionNameLabel.text =  "Mission: " + missionName
         rocketNameLabel.text = "Rocket: " + rocketName
         launchSiteNameLabel.text = "Site: " + siteName
