@@ -13,6 +13,7 @@ class SpaceXTests: XCTestCase {
     var launchData : [launch]?
     override func setUp() {
         super.setUp()
+        getMockData()
         
     }
     override func tearDownWithError() throws {
